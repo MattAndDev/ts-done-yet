@@ -1,9 +1,9 @@
 {
   "name": "ts-done-yet",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "how far is your migration to typescript?",
   "main": "build/index.js",
-  "types": "source/main.ts",
+  "types": "source/index.ts",
   "bin": {
     "ts-done-yet": "bin/index.js"
   },
