@@ -1,6 +1,6 @@
 {
   "name": "ts-done-yet",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "how far is your migration to typescript?",
   "main": "build/index.js",
   "types": "source/main.ts",
@@ -30,7 +30,7 @@
     "typescript": "^4.0.5"
   },
   "author": {
-    "name": "Matteo Maroanati",
+    "name": "Matteo Maronati",
     "email": "mail@matteo.land",
     "url": "https://matteo.land"
   },
@@ -39,6 +39,9 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "repository": {
+    "url": "https://github.com/MattAndDev/ts-done-yet"
   },
   "lint-staged": {
     "**/*.ts": [
