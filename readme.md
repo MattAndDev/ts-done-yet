@@ -14,7 +14,7 @@ ts-done-yet ./my-project/src
 ### code
 
 ```ts
-import { tsDoneYet, percentage } from 'tsc-done-yet'
+import { tsDoneYet, percentage } from 'ts-done-yet'
 ;(async function () {
   const { ts, all } = await tsDoneYet('./my-project/src')
   const filesPercentage = percentage(ts.files, all.files)
