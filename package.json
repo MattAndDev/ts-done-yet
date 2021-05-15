@@ -39,11 +39,6 @@
     "url": "https://matteo.land"
   },
   "license": "WTFPL",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "repository": {
     "url": "https://github.com/MattAndDev/ts-done-yet"
   },
